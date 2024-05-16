@@ -1,0 +1,33 @@
+@import url('../../variables.css');
+
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    height: 3em;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    backdrop-filter: blur(10px) saturate(180%);
+    background-color: var(--bg-color);
+    img{
+        margin-left: 3dvw;
+        margin-right: 0.5rem;
+    }
+    .text{
+        width: 4rem;
+        line-height: 1.2em;
+        text-wrap: wrap;
+        user-select: none;
+        font-variation-settings: 'wght' 700, 'slnt' 0;
+        color: var(--color-800);
+        text-shadow:
+        1px 1px 0 var(--color-300),
+        -1px 1px 0 var(--color-300),
+        -1px -1px 0 var(--color-300),
+        1px -1px 0 var(--color-300);
+    }
+}

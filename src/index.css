@@ -1,6 +1,30 @@
+
 :root {
-    margin: 0;
-    padding: 0;
+    /* paleta de colores */
+    --color-50: #f3f6fc;
+    --color-100: #e5edf9;
+    --color-200: #c6d9f1;
+    --color-300: #93b9e6;
+    --color-400: #5995d7;
+    --color-500: #3478c3;
+    --color-600: #245da5;
+    --color-700: #1e4b86;
+    --color-800: #1d406f;
+    --color-900: #1d375d;
+    --color-950: #13243e;
+
+    width: 100vw;
+    overflow-x: hidden;
     font-family: "inter-variable",sans-serif;
     font-variation-settings: 'wght' 400, 'slnt' 0;
+    font-size: calc(16px + 0.25vw);
+}
+body{
+    margin: 0;
+    padding: 0; 
+}
+@media (min-width: 1400px) {
+    :root {
+      font-size: calc(16px + 0.65vw);
+    }
 }
