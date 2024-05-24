@@ -1,0 +1,99 @@
+.cont-contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 580px;
+    
+}
+
+.form-contacto{
+    background-color: #245DA5;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-contacto{
+    h2{
+       align-self: flex-start;
+       margin-left: 40px;
+       margin-bottom: 20px;
+       font-size: 36px;
+       color: #F3F6FC;
+       font-weight: 400;
+      
+       
+    }
+}
+
+.f-input{
+  width: 80%;
+  height: 25px;
+}
+
+.f-texta{
+  width: 80%;
+  height: 30%;  
+}
+
+.m-bottom{
+    margin-bottom: 20px ;
+}
+
+.f-enviar-cont{
+  align-self: start;  
+  margin-left: 45px;
+  border-radius: 0;
+  margin-top: 20px;
+  background-color: #F69100;
+  color: #F3F6FC;
+}
+
+.map-datos{
+    background-color: #C6D9F1;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.map{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframe-map{
+  width: 90%;
+  height: 90%;
+  
+ 
+}
+
+.datos-contacto{
+  width: 90%;
+ 
+  height: 30%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around
+
+}
+
+.d-lhe{
+  width: 30%;
+  height: 80%;
+  background-color: #f3f6fc88;
+  border-style: solid;
+  border-color: #245DA5;
+  border-width: 1px;
+  border-radius: 15px;
+}
+
