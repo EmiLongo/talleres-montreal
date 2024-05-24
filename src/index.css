@@ -1,6 +1,18 @@
+@import url('./variables.css');
 :root {
-    margin: 0;
-    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
     font-family: "inter-variable",sans-serif;
     font-variation-settings: 'wght' 400, 'slnt' 0;
+    font-size: calc(16px + 0.25vw);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-body);
+}
+@media (min-width: 1400px) {
+    :root {
+      font-size: calc(16px + 0.65vw);
+    }
 }
